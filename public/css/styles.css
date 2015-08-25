@@ -1,0 +1,21 @@
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0px 0px;
+}
+
+.parallax-container {
+	height: 100vh;
+	color: #fff;
+}
+
+.intro {
+	position: absolute;
+	top: 40%;
+	text-align: center;
+	width: 100%;
+}
+
+.intro h1 {
+	font-weight: 100;
+}
