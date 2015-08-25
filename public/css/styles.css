@@ -6,16 +6,83 @@ body {
 
 .parallax-container {
 	height: 100vh;
-	color: #fff;
 }
 
 .intro {
 	position: absolute;
-	top: 40%;
+	top: 30%;
 	text-align: center;
 	width: 100%;
+	color: #fff;
 }
 
-.intro h1 {
+.intro p {
 	font-weight: 100;
+	font-size: 85px;
+	text-shadow: 0 2px 15px rgba(0,0,0,0.9);
+	margin-bottom: 10px;
 }
+
+.intro h5 {
+	font-weight: 100;
+	text-shadow: 0 2px 15px rgba(0,0,0,0.9);
+}
+
+.fixed {
+  position: fixed; 
+  top: 0; 
+  height: 70px; 
+  z-index: 998;
+}
+
+nav {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.nav-wrapper a {
+  font-weight: 300;
+  color: #000;
+  margin-left: 10px;
+}
+
+.nav-wrapper li {
+	padding-left: 10px;
+	margin-left: 10px;
+	padding-top: 0px;
+}
+
+.projects {
+	width: 80%;
+}
+
+#projectHead {
+	padding: 15px;
+	margin-top: 60px;
+	font-weight: 300;
+	color: #4a4a4a;
+}
+
+#projectHead i {
+	margin-left: 30px;
+	color: #fef6d5;
+	/*color: #fff3c1;*/
+	/*color: #fdf0bb;*/
+}
+
+.aboutMe {
+	width: 80%;
+}
+
+#aboutHead {
+	padding: 15px;
+	margin-top: 60px;
+	font-weight: 300;
+	color: #4a4a4a;
+}
+
+#aboutHead i {
+	margin-right: 30px;
+	color: #fef6d5;
+}
+
+
