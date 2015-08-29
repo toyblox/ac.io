@@ -10,19 +10,27 @@ body {
 
 .intro {
 	position: absolute;
-	top: 30%;
+	top: 20%;
 	text-align: center;
 	width: 100%;
 	color: #fff;
 }
 
-.intro p {
+.logo {
+	vertical-align: center;
+}
+
+.logo img {
+	width: 530px;
+}
+
+/*.intro p {
 	font-weight: 100;
 	font-size: 85px;
 	text-shadow: 0 2px 15px rgba(0,0,0,0.9);
 	margin-bottom: 10px;
 }
-
+*/
 .intro h5 {
 	font-weight: 100;
 	text-shadow: 0 2px 15px rgba(0,0,0,0.9);
@@ -51,13 +59,18 @@ nav {
 	padding-top: 0px;
 }
 
-.projects {
+/*.projects {
 	width: 80%;
+}*/
+
+#projects img {
+	margin-top: 20px;
 }
+
 
 #projectHead {
 	padding: 15px;
-	margin-top: 60px;
+	margin-top: 90px;
 	font-weight: 300;
 	color: #4a4a4a;
 }
@@ -67,6 +80,92 @@ nav {
 	color: #fef6d5;
 	/*color: #fff3c1;*/
 	/*color: #fdf0bb;*/
+}
+
+.grid {
+	padding: 20px 20px 100px 20px;
+	max-width: 1300px;
+	margin: 0 auto;
+	list-style: none;
+	text-align: center;
+}
+
+.grid li {
+	display: inline-block;
+	width: 500px;
+	margin: 0;
+	padding: 20px;
+	text-align: left;
+	position: relative;
+}
+
+.grid figure {
+	margin: 0;
+	position: relative;
+}
+
+.grid figure img {
+	max-width: 100%;
+	display: block;
+	position: relative;
+}
+
+.grid figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	background: #fef6d5;
+	color: #4a4a4a;
+}
+.grid figcaption h3 {
+	margin: 0;
+	padding: 0;
+	color: #3a3a3a;
+}
+
+
+@media screen and (max-width: 31.5em) {
+	.grid {
+		padding: 10px 10px 100px 10px;
+	}
+	.grid li {
+		width: 100%;
+		min-width: 300px;
+	}
+}
+
+.descript-style figcaption {
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	text-align: center;
+	backface-visibility: hidden;
+	transition: transform 0.3s, opacity 0.3s;
+}
+
+.descript-style figure:hover figcaption,
+.descript-style figure.descript-hover figcaption {
+	opacity: 0.9;
+	transform: translate(10px, 10px);
+}
+
+.descript-style figcaption h3 {
+	margin-top: 70px;
+	text-transform: uppercase;
+	font-weight: lighter;
+	margin-bottom: 15px;
+}
+
+.descript-style figcaption span {
+	display: block;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #4a4a4a;
+}
+
+.descript-style figcaption a {
+	margin-top: 30px;
 }
 
 .aboutMe {
@@ -81,7 +180,7 @@ nav {
 }
 
 #aboutHead i {
-	margin-right: 30px;
+	margin-right: 35px;
 	color: #fef6d5;
 }
 
