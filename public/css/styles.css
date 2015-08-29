@@ -59,6 +59,10 @@ nav {
 	padding-top: 0px;
 }
 
+.nav-wrapper img {
+	margin-top: 10px;
+}
+
 /*.projects {
 	width: 80%;
 }*/
