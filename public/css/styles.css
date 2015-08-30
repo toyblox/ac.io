@@ -36,6 +36,8 @@ body {
 	text-shadow: 0 2px 15px rgba(0,0,0,0.9);
 }
 
+/* S T A R T   N A V B A R */
+
 .fixed {
   position: fixed; 
   top: 0; 
@@ -63,9 +65,11 @@ nav {
 	margin-top: 10px;
 }
 
-/*.projects {
-	width: 80%;
-}*/
+/* S T A R T  P R O J E C T S */
+
+.project {
+	margin-bottom: 30px;
+}
 
 #projects img {
 	margin-top: 20px;
@@ -122,7 +126,7 @@ nav {
 	background: #fef6d5;
 	color: #4a4a4a;
 }
-.grid figcaption h3 {
+.grid figcaption h4 {
 	margin: 0;
 	padding: 0;
 	color: #3a3a3a;
@@ -154,7 +158,7 @@ nav {
 	transform: translate(10px, 10px);
 }
 
-.descript-style figcaption h3 {
+.descript-style figcaption h4 {
 	margin-top: 70px;
 	text-transform: uppercase;
 	font-weight: lighter;
@@ -172,13 +176,17 @@ nav {
 	margin-top: 30px;
 }
 
-.aboutMe {
-	width: 80%;
+/* S T A R T  A B O U T */
+
+
+.aboutInfo {
+	margin-bottom: 80px;
 }
 
 #aboutHead {
 	padding: 15px;
-	margin-top: 60px;
+	margin-top: 30px;
+	margin-bottom: 50px;
 	font-weight: 300;
 	color: #4a4a4a;
 }
@@ -186,6 +194,71 @@ nav {
 #aboutHead i {
 	margin-right: 35px;
 	color: #fef6d5;
+}
+
+.selfie{
+	text-align: center;
+}
+
+.introMe {
+	font-weight: 300;
+	color: #4a4a4a;
+	font-size: 25px;
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+.aboutMe p {
+	font-weight: 300;
+	font-size: 20px;
+	color: #4a4a4a;
+	line-height: 2.0;
+	text-align: left;
+}
+
+.aboutMe p a {
+	color: #8e8e8e;
+}
+
+.aboutMe p a:hover {
+	color: #c3bc9d;
+}
+
+
+/* S T A R T  C O N T A C T */
+
+.contact {
+	height: 40vh;
+	background-color: #fef6d5; 
+	margin-top: 30px;
+}
+
+#contactHead {
+	padding-top: 30px;
+	margin-top: 40px;
+	font-weight: 300;
+	color: #4a4a4a;
+}
+
+#contactHead i {
+	margin-left: 35px;
+	color: #fff;
+}
+
+#contactHead:hover {
+	color: #8f8f8f;
+}
+
+.social {
+	margin-top: 20px;
+}
+
+.social a {
+	color: #6e6e6e;
+}
+
+.social a:hover {
+	color: #8f8f8f;
 }
 
 
