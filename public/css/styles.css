@@ -238,7 +238,7 @@ nav {
 }
 
 #contactHead {
-	padding-top: 30px;
+	padding-top: 20px;
 	margin-top: 40px;
 	font-weight: 300;
 	color: #4a4a4a;
@@ -249,7 +249,17 @@ nav {
 	color: #fff;
 }
 
-#contactHead:hover {
+.phone {
+	text-align: right;
+	font-size: 4em;
+	padding-bottom: 20px;
+}
+
+.phone a {
+	color:#6e6e6e;
+}
+
+.phone a:hover {
 	color: #8f8f8f;
 }
 
@@ -264,5 +274,53 @@ nav {
 .social a:hover {
 	color: #8f8f8f;
 }
+
+.footer-copyright {
+	background-color: #fef6d5;
+	padding-bottom: 10px;
+}
+
+/* P R O J E C T  D E T A I L S */
+
+.tut {
+	width: 80%;
+	text-align: center;
+	margin-top: 30px;
+	color:#5a5a5a;
+}
+
+.heading {
+	text-transform: uppercase;
+}
+
+.heading h1, p {
+	font-weight: 300;
+	margin: 10px auto;
+}
+
+.heading p {
+	font-size: 20px;
+}
+
+.steps p {
+	font-weight: 300;
+	line-height: 1.5;
+	font-size: 20px;
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+
+.steps img {
+	margin: 30px auto;
+}
+
+.walkThrough h3 a {
+	color: #4a4a4a;
+}
+
+.walkThrough h3 a:hover {
+	color: #8f8f8f;
+}
+
 
 

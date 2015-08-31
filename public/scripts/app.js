@@ -6,20 +6,25 @@ app.config(function($routeProvider) {
 		templateUrl: 'scripts/views/homeTmpl.html',
 		controller: 'homeCtrl'
 	})
-	
+
 	.when('/coop', {
 		templateUrl: 'scripts/views/coopTmpl.html',
-		controller:'coopCtrl'
+		controller:'homeCtrl'
 	})
 
 	.when('/gmShop', {
 		templateUrl: 'scripts/views/gmsTmpl.html',
-		controller: 'gmsCtrl'
+		controller: 'homeCtrl'
 	})
 
 	.when('/cowShare', {
 		templateUrl: 'scripts/views/gmsTmpl.html',
-		controller: 'cowsCtrl'
+		controller: 'homeCtrl'
+	})
+
+	.when('/resume', {
+		templateUrl: 'scripts/views/resume.html',
+		controller: 'homeCtrl'
 	})
 
 	.otherwise({
@@ -27,5 +32,10 @@ app.config(function($routeProvider) {
 	})
 
 
+});
 
-})
+app.run(function ($rootScope, $window) {
+ $rootScope.$on("$routeChangeSuccess", function(event){
+    $window.scrollTo(0,0);
+	});
+});
