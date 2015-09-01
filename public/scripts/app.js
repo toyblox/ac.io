@@ -18,12 +18,7 @@ app.config(function($routeProvider) {
 	})
 
 	.when('/cowShare', {
-		templateUrl: 'scripts/views/gmsTmpl.html',
-		controller: 'homeCtrl'
-	})
-
-	.when('/resume', {
-		templateUrl: 'scripts/views/resume.html',
+		templateUrl: 'scripts/views/cowTmpl.html',
 		controller: 'homeCtrl'
 	})
 
