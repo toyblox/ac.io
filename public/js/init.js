@@ -23,5 +23,9 @@ $(document).ready(function(){
 
     $('.scrollspy').scrollSpy();
 
+    $(".button-collapse").sideNav({
+        closeOnClick: true
+    });
+
 
 });

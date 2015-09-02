@@ -36,6 +36,19 @@ body {
 	text-shadow: 0 2px 15px rgba(0,0,0,0.9);
 }
 
+
+
+@media (min-width: 375px) and (max-width: 615px) {
+	.logo img {
+		width: 340px;
+	}
+
+	.intro h5 {
+		font-size: 17px;
+	}
+}
+
+
 /* S T A R T   N A V B A R */
 
 .fixed {
@@ -280,6 +293,55 @@ nav {
 	padding-bottom: 10px;
 }
 
+@media (min-width: 375px) and (max-width: 625px) {
+	.contact {
+		height: 100%;
+		padding-bottom: 0;
+	}
+
+	#contactHead {
+		font-size: 55px;
+	}
+
+	.phone {
+		font-size: 3em;
+	}
+
+	.social {
+		text-align: center;
+		margin-top: 0;
+	}
+
+	.footer-copyright {
+		font-size: 12px;
+	}
+}
+
+@media (min-width: 625px) and (max-width: 1000px) {
+	.contact {
+		height: 100%;
+		padding-bottom: 0;
+	}
+
+	#contactHead {
+		font-size: 55px;
+	}
+
+	.phone {
+		font-size: 3em;
+	}
+
+	.social {
+		text-align: center;
+		margin-top: 0;
+	}
+
+	.footer-copyright {
+		font-size: 15px;
+	}
+}
+
+
 /* P R O J E C T  D E T A I L S */
 
 .tut {
@@ -288,6 +350,7 @@ nav {
 	margin-top: 30px;
 	color:#5a5a5a;
 }
+
 
 .heading {
 	text-transform: uppercase;
@@ -314,6 +377,10 @@ nav {
 	margin: 30px auto;
 }
 
+.media {
+	text-align: center;
+}
+
 .walkThrough h3 a {
 	color: #4a4a4a;
 }
@@ -321,6 +388,24 @@ nav {
 .walkThrough h3 a:hover {
 	color: #8f8f8f;
 }
+
+@media (min-width: 375px) and (max-width: 625px) {
+	.heading h1 {
+		font-size: 45px;
+	}
+
+	.steps img {
+		width: 325px;
+	}
+}
+
+@media (min-width: 625px) and (max-width: 900px) {
+	.steps img {
+		width: 550px;
+	}
+}
+
+
 
 
 
